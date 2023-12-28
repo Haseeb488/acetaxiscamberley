@@ -1,4 +1,4 @@
-import 'package:acetaxiscamberley/WebViewPage.dart';
+import 'package:acetaxiscamberley/Pages/home.dart';
 import 'package:connectivity/connectivity.dart';
 import 'package:flutter/material.dart';
 import 'package:fluttertoast/fluttertoast.dart';
@@ -59,7 +59,7 @@ class _NoInternetConnectionScreenState extends State<NoInternetConnectionScreen>
         Navigator.push(
           context,
           MaterialPageRoute(
-            builder: (context) => WebViewPage (
+            builder: (context) => Home (
             ),
           ),
         );
