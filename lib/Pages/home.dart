@@ -17,7 +17,6 @@ class _HomeState extends State<Home>
 {
   int currentTab =0;
   final List<Widget> screens = [
-    FareCalculatorScreen(),
     TaxiBookingForm(),
     ContactPage(),
     ExitAppScreen(),
@@ -42,10 +41,12 @@ class _HomeState extends State<Home>
           });
         },
         items: [
-          BottomNavigationBarItem(
+       /*   BottomNavigationBarItem(
             icon: Icon(Icons.currency_pound),
             label: 'Est Fare Calculator',
           ),
+
+        */
           BottomNavigationBarItem(
             icon: Icon(Icons.local_taxi),
             label: 'Book Ride',

@@ -153,7 +153,6 @@ class _FareCalculatorScreenState extends State<FareCalculatorScreen> {
                   Padding(
                     padding: EdgeInsets.only(left: 16.0, right: 16, top: 16),
                     child: Container(
-
                    //   height: MediaQuery.of(context).size.height-100,
                       decoration: BoxDecoration(
                         color: Colors.black38,
